@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+  body{
+    background: url("background.jpg") no-repeat center/cover; 
+    height: 700px;
+  }
+  /* login form */
+  .form {:
+    display: flex;
+    flex-direction: column;
+    height:500px;
+    width:400px;
+    border: none;
+    align-items: center;
+    margin: auto;
+    margin-top:50px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: inset -5px -5px rgba(0, 0, 255, 0.5);
+    border-redius: 25px;
+  }
+  .form h1{
+    color: white;
+    font-size: 2rem;
+    border-bottom: 4px solid rgba(255, 255, 255, 10.5);
+    text-align: center;
+    box-shadow: rgba(255, 255, 255, 10.5);
+    background-color: rgba(0, 0, 255, 10.5);
+    border-radius: 20px;
+    border-block: 20px;
+  }
+  /* Boxes */
+  .box{
+    padding: 12px;
+    margin: 20px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 25, 1.1);
+    box-shadow: inset -3px -3px rgba(0, 0, 255, 10.5);
+    color: red;
+    font-size: 1rem;
+    border-bottom: 4px;
+  }
+  
+  .submit{
+    padding:10px 20px ;
+    margin-top:50px ;
+    width:50%;
+    background-color: rgba(255, 255, 255, 5.5);
+    box-shadow: inset -3px -3px rgba(0, 0, 255, 1.5);
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+
+    
+  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Login</title>
+</head>
+
+<body>
+  <form action="" class="form">
+  <h1>LOGIN</h1>
+  <input type="email" name="email" class="box" placeholder="Enter Username">
+  <input type="password" name="password" class="box" placeholder="Enter email">
+  <input type="password" name="password" class="box" placeholder="Confirm password">
+  <input type="submit" value="LOGIN" class="submit" class="hover">
+  
+</body>
+  </html>
+  
